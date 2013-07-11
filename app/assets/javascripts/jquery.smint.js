@@ -2,11 +2,6 @@
 
 SMINT V1.0 by Robert McCracken
 
-SMINT is my first dabble into jQuery plugins!
-
-http://www.outyear.co.uk/smint/
-
-If you like Smint, or have suggestions on how it could be improved, send me a tweet @rabmyself
 
 */
 (function(){

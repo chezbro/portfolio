@@ -128,7 +128,7 @@ div#links {
   margin: 3px 45px 0 0;
 }
 
-#links ul li#last_link {
+#links ul li.last_link {
 
   margin: 3px 0 0 0;
 }
