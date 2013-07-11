@@ -1,0 +1,434 @@
+/* Eric Meyer CSS Reset */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+
+/* My Styles */
+
+body {
+
+  height: 6000px;
+  width: 100%;
+  text-align: center;
+  /*z-index?*/
+}
+
+div#home {
+  display: inline-block;
+  background: #fcfaf2;
+
+}
+
+div.page {
+
+  height:1200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+div.content {
+
+  height: 1200px;
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+div#home_content{
+
+  height: 246px;
+  width: 346px;
+  position: relative;
+  margin: 0 auto;
+  top:33%;
+}
+
+img#emc_logo {
+
+  width:339px;
+  height:224px;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  top:25%;
+  pointer-events:none;
+}
+
+div#links {
+  text-align: center;
+}
+
+#links ul {
+
+  display: inline-block;
+}
+
+#links ul li {
+
+  float: left;
+  margin: 3px 45px 0 0;
+}
+
+#links ul li#last_link {
+
+  margin: 3px 0 0 0;
+}
+
+#links ul li a {
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #696767;
+  font-weight: 300;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  -webkit-transition:all 205ms ease-in;
+  -o-transition:all 205ms ease-in;
+  opacity: 0.9;
+
+}
+
+#links ul li a:hover {
+
+  color: #a29292;
+}
+
+footer {
+  position: relative;
+  top:-6.5%;
+
+}
+
+#heart {
+
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+
+#withlove {
+
+  font-size: .5em;
+  font-family: 'Lato', sans-serif;
+  color: #69676f;
+  font-weight: 200;
+  margin-top: 10px;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+/*End of Home*/
+
+
+/*Start of About*/
+
+div#about {
+  background: #e33f1c;
+}
+
+/* inherited div.content {
+
+  height: 1200px;
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+
+}*/
+
+/* inherited div.page {
+  height:1200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}*/
+
+div#about_content{
+
+  width: 620px;
+  height:340px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  top:33%;
+  position: relative;
+}
+
+h1.heading {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 52pt;
+  font-weight: 100;
+  color: #edf6f9;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hi {
+
+  padding-left: 15px;
+}
+
+img {
+
+  pointer-events:none;
+
+}
+
+img#about_logo{
+
+  padding-top: 7px;
+}
+
+ul.spacing {
+
+  line-height: 1.57;
+}
+
+
+.heading_2 {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 18pt;
+  font-weight: 200;
+  color: #edf6f9;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.2;
+  padding-top: 10px;
+  list-style:none;
+}
+
+.heading_2 a {
+
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 18pt;
+  font-weight: 200;
+  color: #edf6f9;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.2;
+  padding-top: 10px;
+
+}
+
+.heading_2 a:hover {
+
+  font-family: "Lato", sans-serif;
+  font-size: 18pt;
+  font-weight: 200;
+  color: #D5E6EB;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  -webkit-transition:all 205ms ease-in;
+  -o-transition:all 205ms ease-in;
+  opacity: 0.9;
+
+}
+
+.about_text {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 18pt;
+  font-weight: 200;
+  color: #edf6f9;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.1;
+  position: relative;
+  top: -40%;
+
+}
+
+/*End of About*/
+
+/*Start of Skills*/
+
+div#skills {
+
+  background: #85878d;
+}
+
+/* inherited div.page {
+  height:1200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}*/
+
+/* inherited div.content {
+
+  height: 1200px;
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}*/
+
+div#skills_content{
+
+  width: 700px;
+  height:440px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  top:33%;
+  position: relative;
+}
+
+
+/* End of Skills */
+
+/* Start of Projects */
+
+div#projects{
+
+  background: #0ac5f4;
+
+}
+
+/*div.page {
+  height:1200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}*/
+
+/*div.content {
+
+  height: 1200px;
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+
+}*/
+
+div#projects_content{
+
+  width: 800px;
+  height:400px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  top:33%;
+  position: relative;
+}
+
+
+
+/* End of Projects */
+
+/* Start of Contact */
+div#contact{
+
+  background:#ab4549;
+
+}
+
+/*div.content {
+
+  height: 1200px;
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+
+}*/
+
+/*div.page {
+  height:1200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}*/
+
+div#contact_content {
+
+    width: 800px;
+    height:400px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    top:33%;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
