@@ -226,6 +226,8 @@ h1.heading {
   color: #edf6f9;
   font-smooth:always;
   -webkit-font-smoothing: antialiased;
+  padding-bottom: 10px;
+
 }
 
 .hi {
@@ -244,7 +246,7 @@ img#about_logo{
   padding-top: 7px;
 }
 
-ul.spacing {
+ul.spacing_for_heading {
 
   line-height: 1.57;
 }
@@ -259,11 +261,12 @@ ul.spacing {
   font-smooth:always;
   -webkit-font-smoothing: antialiased;
   vertical-align: middle;
-  text-align: center;
+
   line-height: 1.2;
   padding-top: 10px;
   list-style:none;
 }
+
 
 .heading_2 a {
 
@@ -421,11 +424,21 @@ div#contact_content {
     position: relative;
 
 }
+/*
+span.spacing_for_text {
+
+  padding-left: 100px;
+  padding-right: 200px;
+
+}
+
+span.rest_of_text{
+
+  text-align: right;
+}
 
 
-
-
-
+*/
 
 
 

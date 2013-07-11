@@ -71,7 +71,7 @@ SMINT V1.0 by Robert McCracken
 		 		var id = $(this).attr('id');
 
 				// gets the distance from top of the div class that matches your button id minus the height of the nav menu. This means the nav wont initially overlap the content.
-				var goTo =  $('div.'+ id).offset().top -selectorHeight;
+				var goTo =  $('div.'+ id).offset().top +selectorHeight;
 
 				// Scroll the page to the desired position!
 				$("html, body").animate({ scrollTop: goTo }, scrollSpeed);
