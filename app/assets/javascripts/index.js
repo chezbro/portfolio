@@ -19,3 +19,7 @@ $(function() {
     activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
   });
 });
+
+$(document).ready(function() {
+    $("#video").allofthelights();
+});
