@@ -387,20 +387,11 @@ div#projects_content{
   position: relative;
 }
 
-ul.heading_2{
-
-  display: inline-block;
-}
-
 ul.heading_2 li{
 
-  text-align: left;
+  padding-bottom: 10px;
 }
-ul.heading_2 li a{
 
-  padding-right: 100px;
-
-}
 
 p.text_spacing{
 

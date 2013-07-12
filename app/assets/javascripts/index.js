@@ -23,3 +23,7 @@ $(function() {
 $(document).ready(function() {
     $("#video").allofthelights();
 });
+
+$(document).ready(function() {
+       $('.tooltip').tooltipster();
+   });
