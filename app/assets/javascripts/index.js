@@ -20,17 +20,20 @@ $(function() {
   });
 });
 
-$(document).ready(function() {
-    $("#video").allofthelights();
-});
+
+// tooltipster
 
 $(document).ready(function() {
        $('.tooltip').tooltipster();
    });
 
+// Wordsmith
+
 $(function() {
 	$('.content').wordsmith();
 });
+
+// GA
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,5 +42,14 @@ $(function() {
 
   ga('create', 'UA-42421838-1', 'ericchesbrough.com');
   ga('send', 'pageview');
+
+// camvas
+  window.onload = function(){
+    var ctx = document.getElementsByTagName('canvas')[0].getContext('2d')
+    var draw = function(video, dt) {
+      ctx.drawImage(video, 0, 0)
+    }
+    var myCamvas = new camvas(ctx, draw)
+  }
 
 

@@ -155,33 +155,7 @@ div#links {
   color: #a29292;
 }
 
-footer {
-  position: relative;
-  top:-6.5%;
 
-}
-/*
-#heart {
-
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-
-
-}
-
-#withlove {
-
-  font-size: .5em;
-  font-family: 'Lato', sans-serif;
-  color: #69676f;
-  font-weight: 200;
-  margin-top: 10px;
-  font-smooth:always;
-  -webkit-font-smoothing: antialiased;
-  text-align: center;
-}*/
 
 /*End of Home*/
 
@@ -445,6 +419,35 @@ div#contact_content {
     position: relative;
 
 }
+
+footer {
+  position: relative;
+  top:-5.5%;
+
+}
+
+img#heart {
+
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+
+p#withlove {
+
+  font-size: .4em;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-weight: 200;
+  margin-top: 10px;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
 /*
 span.spacing_for_text {
 
@@ -466,7 +469,7 @@ span.rest_of_text{
 
 /*Start of Other*/
 
-div#other{
+/*div#other{
 
   background:#f1bb9a;
 
@@ -482,13 +485,13 @@ div#other_content{
   top:33%;
   position: relative;
 
-}
+}*/
 
 /*inherited heading_2*/
 
 
 
-p.lights{
+/*p.lights{
 
 
   font-family: 'Lato', sans-serif;
@@ -499,7 +502,7 @@ p.lights{
   -webkit-font-smoothing: antialiased;
   padding-top: 50px;
 }
-
+*/
 
 /* End of Other */
 
@@ -598,6 +601,7 @@ and (min-width : 1824px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
+
 }
 
 
